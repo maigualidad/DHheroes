@@ -1,0 +1,120 @@
+
+
+* {
+ margin: 0%;
+ padding: 0%;
+ font-family: 'Roboto', sans-serif;
+ box-sizing: border-box;
+}
+
+a:link, a:visited, a {
+
+    color: unset;
+    text-decoration: none;
+    background-color: none;
+    
+    }
+
+.descuentos {
+    background-color: #1CD1B0;
+    text-align: left;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    
+    
+}
+
+
+header {
+    background-color: #00669F;
+    height: 101px;
+    width: 100%;
+    text-align: left;
+    box-shadow: 2px 2px 5px #999;
+}
+
+h1 {
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    width: 100%;
+
+}
+.batman, .harley {
+    background-color: #F3F3F3;
+    height: 529px;
+    width: 300px;
+    font-size: 16px;
+    position: relative;
+    box-shadow: 2px 2px 5px #999;
+    border-radius: 15px 15px 0 0;
+
+}
+
+.batmandos {
+    background-image: url(IMG/bati.png);
+    height: 193px;
+    
+}
+
+.harleydos {
+    background-image: url(IMG/cardone.png);
+    height: 193px;
+}
+
+.fas {
+    color: red;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    
+}
+
+img {
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    
+}
+
+
+
+h2  {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20%;
+}
+
+p {
+    font-size: 16px;
+    padding: 20px;
+}
+
+.vermas { 
+    background-color: #00669F;
+    color: #FFF;
+    width: 100px;
+    height: 40px;
+    padding-top: 10px;
+    margin: 0;
+    text-align: center;
+    margin-left: 30%;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #00669F;
+    width: 100%;
+    color: #FFF;
+    box-shadow: gray;
+}
