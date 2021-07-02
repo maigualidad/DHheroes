@@ -6,6 +6,7 @@
  font-family: 'Roboto', sans-serif;
  box-sizing: border-box;
  /*outline: 1px solid red;*/
+
 }
 
 a:link, a:visited, a {
@@ -15,6 +16,8 @@ a:link, a:visited, a {
     background-color: none;
     
     }
+
+/* H E A D E R */
 
 .descuentos {
     background-color: #D1891C;
@@ -42,11 +45,13 @@ h1 {
     color: #FFF;
 }
 
+/* M A I N */
+
 section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 50px;
+    padding: 30px;
     width: 100%;
     position: relative;
 
@@ -65,15 +70,15 @@ section {
     z-index: 999;
     position: fixed;
     top: 50%;
-    right: 1%;
+    right: 0.5%;
     margin: 0;
 }
 
 .batman, .harley, .mujer, .superman {
     background-color: #F3F3F3;
-    height: 600px;
-    width: 300px;
-    font-size: 16px;
+    height: 620px;
+    width: 260px;
+    font-size: 1em;
     display: flex;
     flex-direction: column;
     box-shadow: 2px 2px 5px #999;
