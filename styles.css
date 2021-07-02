@@ -182,8 +182,11 @@ footer {
     footer {
         font-size: 1em;
 }
+}
 
 @media (max-width: 460px) {
     footer {
         font-size: 0.5em;
+}
+
 }
