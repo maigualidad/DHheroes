@@ -42,13 +42,27 @@ input#fname, input#email, input#password, select {
     padding: 5px;
 }
 
+.botonespadre {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 0.7em;
+}
+
+span {
+    color: #00669F;
+}
 .botones {
-    padding: 20px;
+    padding: 20px 0 0 0;
     display: flex;
     justify-content: center;
 }
 
-button {
+button, .resetear {
     border-radius: 23.01px;
     background-color: #888888;
     color: #FFF;

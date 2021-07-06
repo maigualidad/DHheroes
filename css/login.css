@@ -48,3 +48,25 @@ button {
     margin-left: 5px;
     margin: 30px 0 0 0;
 }
+
+.botonespadre {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 0.7em;
+}
+
+span {
+    color: #00669F;
+}
+
+.registrarme {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 0.7em;
+    text-align: center;
+}
