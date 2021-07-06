@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Karla:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+.login {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+    padding: 10px;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 3.5em;
+    text-align: left;
+    width: 620px;
+    padding: 10px;
+}
+
+
+
+label, input::placeholder, select {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+
+}
+
+input#email, input#clave {
+    padding: 5px;
+}
+
+button {
+    border-radius: 23.01px;
+    background-color:#1CD1B0;
+    color: #000;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    padding: 6px 40px 6px 40px;
+    border: none;
+    margin-left: 5px;
+    margin: 30px 0 0 0;
+}
