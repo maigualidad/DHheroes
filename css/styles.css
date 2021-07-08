@@ -15,6 +15,7 @@ a:link, a:visited, a {
     
     }
 
+
 /* H E A D E R */
 
 .descuentos {
@@ -24,8 +25,7 @@ a:link, a:visited, a {
     position: fixed;
     z-index: 999;
     max-width: 1500px;
-    
-    
+
 }
 
 
@@ -39,6 +39,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     /*position: relative;*/
+   
 }
 
 h1 {
@@ -49,6 +50,9 @@ h1 {
     font-size: 30px;
     font-weight: 300;
 }
+
+
+
 .logotitulo {
     display: flex;
     align-items: center;
@@ -75,9 +79,15 @@ h1 {
     list-style: none;
 }
 
-.menu li {
-    padding-right: 5px;
+.menu li::before{
+    content: "";
+    font-family: "Font Awesome 5 Free"; 
+     color: #fff;
+     margin-left: 5px;;
+
 }
+
+
 
 /* M A I N */
 
@@ -108,6 +118,13 @@ section {
     margin: 0;
 }
 
+.botonmas:hover {
+    -webkit-transform:scale(1.5);
+
+}
+
+
+
 .batman, .harley, .mujer, .superman {
     background-color: #F3F3F3;
     height: 620px;
@@ -120,14 +137,55 @@ section {
     position: relative;
     margin: 10px;
 
+
+}
+
+.harley:hover {
+    background-color: rgb(255, 194, 225);
+    transition: all 1s;
+}
+
+.harleydos img:hover + i {
+    color: rgb(255, 194, 225);
+    transition: all 1s;
+}
+
+.batman:hover {
+    background-color: #000;
+    color: #FFF;
+    transition: all 1s;
+}
+
+.batmandos img:hover + i {
+    color: #1900ff;
+    transition: all 1s;
+}
+
+.mujer:hover {
+    background-color: rgb(184, 255, 184);
+    transition: all 1s;
+}
+
+.mujerdos img:hover + i {
+    color: #77ff73;
+    transition: all 1s;
+}
+
+.superman:hover {
+    background-color: rgb(157, 217, 255);
+    transition: all 1s;
+}
+
+.supermandos img:hover + i {
+    color: #00ccff;
+    transition: all 1s;
 }
 
 .batmandos {
     background-image: url(../IMG/bati.png);
     height: 193px;
     border-radius: 15px 15px 0 0;
-
-    
+    transition: all 1s;
 }
 
 .harleydos {
@@ -199,6 +257,11 @@ p {
     margin-left: 30%;
     position: absolute;
     top: 90%;
+}
+
+.vermas:hover{
+    background-color: #45b4f5;
+    -webkit-transform:scale(1.5);
 }
 
 /* FOOTER */
